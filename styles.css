@@ -1,6 +1,8 @@
 body{
 	margin: 0px;
 	padding: 0px;
+	width: 100%;
+	height: 100%;
 }
 #headnav{
 	background-color: #23ed43;
@@ -8,4 +10,63 @@ body{
 }
 #p1{
 	font-size: 40px;
+}
+#nav-list{
+	margin-top: 10px;
+}
+#nav-list a{
+	font-size: 25px;
+	padding: 25px 70px;
+}
+#nav-list a:hover{
+	background-color: red;
+}
+@media(min-width: 1200px)
+        {.jumbotron{
+        	background:url(1000height.jpg);
+        	height: 500px;
+        	width: 80%
+        }
+.kidimage{
+        	background:url(1000height.jpg);
+        	height: 200px;
+        	width: 40%
+
+}
+        }
+@media(min-width:992px)and(1199px)
+{
+	.jumbotron{
+		background:url(jflsj.jpg);
+		height: 350px;
+		width: 80%;
+	}
+}
+@media(min-width: 768px)and(max-width: 991px){
+	.jumbotronn{
+				background:url(jflsj.jpg);
+		height: 300px;
+		width: 80%;
+
+
+	}
+}
+#p1{
+	font-size: 30px;
+	margin-top: 520px;
+	text-align: center;
+	margin: 40px;
+}
+#p2{
+		font-size: 30px;
+	margin-top: 520px;
+	background: blue;
+    padding: 5px;
+    text-align:center;
+    margin: 40px;
+    border-radius: 25px;
+
+}
+#main{
+	background-color: white;
 }
